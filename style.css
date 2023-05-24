@@ -1,0 +1,230 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main {
+    background: #f0f2f5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    /* gap: 2em; */
+}
+
+.card {
+    margin: 2px;
+    padding: 5px;
+    width: 25em;
+    height: 35em;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+    background: white;
+    font-family: calibri;
+    /* margin-right: 100px; */
+    
+}
+
+.style01 svg {
+    /* width: 300px; */
+    height: 150px;
+    /* font-size: 20px; */
+    margin: -28px;
+    /* margin-bottom: 20px; */
+}
+
+.style01 {
+    margin-bottom: 70px;
+    margin-right: 70px;
+}
+
+.style01 p {
+    font-size: 30px;
+    font-family: calibri;
+    margin-left: 0.5em;
+}
+
+.card1 span {
+    color: gray;
+}
+
+.style03 {
+    padding-top: 20px;
+    padding-Left: 8px;
+    line-height: 10px;
+}
+
+.style03 input {
+    width: 175px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: #f0f2f5;
+}
+.style03 input::placeholder{
+font-size: 15px;
+}
+
+.style04 {
+    width: 379px !important;
+}
+
+.dob {
+    padding-Left: 8px;
+    line-height: 20px;
+}
+
+.g1 {
+    display: flex;
+}
+
+
+.c4 {
+    display: flex;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 3px;
+    gap: 20px;
+    padding: 6px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.c5 {
+    color: rgb(43, 43, 43);
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 3px;
+    gap: 20px;
+    padding: 7px;
+    padding-left: 58px;
+    text-align: start   ;
+    display: inline;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.t {
+    font-size: 12px;
+    color: gray;
+    line-height: 14px;
+}
+
+.t a {
+    color: rgb(0, 25, 248);
+    text-decoration: none;
+}
+
+.bt1 {
+    text-align: center;
+}
+
+.bt1 button{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color:#00A400;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+.bt1 button:hover{
+    background: linear-gradient(rgb(57, 133, 86),rgb(83, 106, 83));
+    cursor: pointer;
+}
+
+.card1 h1,p{
+    padding-Left: 5px;
+}
+
+.g p{
+    color: rgb(105, 105, 105);
+    font-size: 14px;
+}
+
+@media only screen and (max-width :400px) {
+
+    .card{margin: 2px;
+        padding: 5px;
+        width: 19em;;
+        background: white;
+        height: 35em;
+        box-shadow: 0 0 5px gray;
+        border-radius: 5px
+    }
+    
+    .b1{
+        color: grey;
+        font-size: 1.5em;
+    }
+    .style03{
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+    .style03 .sty12,.style04{
+        border-radius: 10px;
+        padding: 3px;
+        border: 1px solid gray;
+        background:#f5f6f7;
+     height: 2em;
+    }
+
+    .style04{
+        width: 23em;
+    }
+    .style03 select{
+        border-radius: 10px;
+        width: 3em;
+        height: 2em;
+    }
+    .g{
+        font-size: 12px;
+        width: 5em;
+        padding: 5px;
+        border-radius: 10px;
+        border: 2px solid gray;
+    }
+    .c5{
+        color: grey;
+        font-size: 13px;
+    }
+    .c5 a{
+        text-decoration: none;
+        color: #1976f2;
+    }
+    .bt1{
+        display: flex;
+        justify-content: center;
+    }
+    .bt1 button{
+        color: white;
+        font-weight: bolder;
+        width: 6em;
+        font-size: 1.5em;
+        background: linear-gradient(rgb(7, 136, 7),rgb(0 164 0));
+        padding: 5px;
+        border-radius: 10px;
+        border: none;
+    
+    }
+    
+    .bt1 button:hover{
+        background: linear-gradient(rgb(57, 133, 86),rgb(83, 106, 83));
+        cursor: pointer;
+    }
+    .main{
+        background: #f0f2f5;
+        height: fit-content;
+      
+    }
+    
+    
+  
+}
+
+    
